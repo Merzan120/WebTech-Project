@@ -65,6 +65,11 @@ switch ($page) {
         $controller->about();
         break;
 
+    case 'checkout':
+        $controller = new CheckoutController();
+        $controller->show();
+        break;
+
     case 'cart':
         (new CartController())->showCart(); break;
     case 'add-cart-item':

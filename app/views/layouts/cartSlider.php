@@ -13,17 +13,12 @@
     <i class="fa-solid fa-xmark close-icon" aria-label="Schließen"></i>
   </div>
 
-  <div class="cart-promo">
-    <input type="text" id="promoCode" placeholder="Gutscheincode" />
-    <button onclick="applyPromo()">Anwenden</button>
-  </div>
 
   <div class="cart-content">
     <div id="cartItems"></div>
   </div>
 
   <div class="cart-summary">
-    <div class="summary-row">Du sparst: <span id="cartSavings">0,00 €</span></div>
     <div class="summary-row total"><b>Gesamt:</b> <span id="cartTotal">0,00 €</span></div>
     <button class="checkout-btn">Jetzt kaufen</button>
   </div>

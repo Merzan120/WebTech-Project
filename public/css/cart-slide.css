@@ -46,44 +46,6 @@ transform: translateX(0);
 
 .close-icon:hover{color:#676767;}
 
-.cart-promo {
-  display: flex;                   /* Horizontale Anordnung */
-  align-items: center;             /* Vertikal zentriert */
-  gap: 0.5rem;                     /* Abstand zwischen den Elementen */
-  margin: 1.5rem 1.5rem 0.5rem 1.5rem; /* Außenabstand oben/rechts/unten/links */
-}
-
-.cart-promo input {
-  flex: 1;                         /* Nimmt verfügbaren Platz ein */
-  border-radius: 24px;             /* Starke Rundung */
-  border: 1px solid #eee;          /* Heller Rand */
-  padding: 0.7rem 1rem;            /* Innenabstand */
-  font-size: 1.05rem;              /* Etwas größere Schrift */
-}
-
-.cart-promo button {
-  border-radius: 24px;             /* Runde Ecken */
-  background: #111;                /* Dunkler Hintergrund */
-  color: #fff;                     /* Weiße Schrift */
-  border: none;                    /* Kein Rand */
-  padding: 0.7rem 1.3rem;          /* Innenabstand */
-  font-weight: bold;               /* Fett */
-  font-size: 1rem;                 /* Normale Schriftgröße */
-  cursor: pointer;                 /* Hand beim Hover */
-  transition: background .2s;      /* Farbwechsel bei Hover */
-}
-.cart-promo button:hover { background: #16b36a; } /* Grün bei Hover */
-
-
-.promo-badge {
-  background: #16b36a;    /* Grün als Erfolgs-Badge */
-  color: #fff;            /* Weiße Schrift */
-  font-weight: 600;       /* Halbfett */
-  border-radius: 16px;    /* Runde Ecken */
-  padding: 0.4rem 1rem;   /* Innenabstand */
-  margin-right: .5rem;    /* Abstand rechts */
-  font-size: .98rem;      /* Etwas kleinere Schrift */
-}
 
 .cart-item {
   display: flex; /* Flex, linksbündig, Abstand */
@@ -219,14 +181,6 @@ body.dark-mode .header-title {
   color: #fafafa;
 }
 
-body.dark-mode .cart-promo input {
-  background: #18181b;
-  color: #fafafa;
-  border: 1px solid #292933;
-}
-body.dark-mode .cart-promo input::placeholder {
-  color: #bbb;
-}
 
 body.dark-mode.cart-item {
   background: #23232a;
